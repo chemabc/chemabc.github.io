@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+
+
+<!--
+<script type="text/javascript" src="../js/processing/processing.min.js"></script>
+ <script type="text/javascript" src="../js/processing_sketches/drawFaces/paint.js"></script>
+  <script type="text/javascript" src="../js/processing_sketches/drawFaces/drawFaces.js"></script> -->
+<!-- Poner processing js aquí: http://processingjs.org/learning/ -->
+</head>
+<body>
+
+  <script src="processing.js"></script>
+<script type="text/processing" data-processing-target="mycanvas">
+void setup()
+{
+  size(200,200);
+  background(125);
+  fill(255);
+  noLoop();
+  PFont fontA = loadFont("courier");
+  textFont(fontA, 14);
+}
+
+void draw(){
+  text("Hello Web!",20,20);
+  println("Hello ErrorLog!");
+}
+</script>
+<canvas id="mycanvas"></canvas>
+
+
+
+</body>
+</html>

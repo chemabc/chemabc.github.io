@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>codeExperiments | Chema BC</title>
+    <link>https://chemabc.github.io/codeexperiments/</link>
+      <atom:link href="https://chemabc.github.io/codeexperiments/index.xml" rel="self" type="application/rss+xml" />
+    <description>codeExperiments</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><copyright>© 2021</copyright><lastBuildDate>Thu, 16 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://chemabc.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>codeExperiments</title>
+      <link>https://chemabc.github.io/codeexperiments/</link>
+    </image>
+    
+    <item>
+      <title>Draw Faces con p5.js</title>
+      <link>https://chemabc.github.io/codeexperiments/processingjs/drawfacesp5/</link>
+      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://chemabc.github.io/codeexperiments/processingjs/drawfacesp5/</guid>
+      <description>&lt;p&gt;Este es el primer ejemplo de código usando &lt;em&gt;
+&lt;a href=&#34;https://p5js.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;p5.js&lt;/a&gt;&lt;/em&gt; integrado en un post con Hugo. Debajo del sketch está el código que lo genera.&lt;/p&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://chemabc.github.io/css/p5.css&#34;&gt;
+&lt;script type=&#34;text/javascript&#34; src=&#34;https://chemabc.github.io/js/processing/processing.min.js&#34;&gt;&lt;/script&gt;
+&lt;script type=&#34;text/javascript&#34; src=&#34;https://chemabc.github.io/js/processing_sketches/drawFaces/drawFaces.js&#34;&gt;&lt;/script&gt;
+
+&lt;h3&gt; Sketch interactivo del archivo &lt;code&gt;drawFaces/drawFaces.js&lt;/code&gt; hecho con Processing.js:&lt;/h3&gt;
+
+&lt;div id=&#34;sketch&#34;&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&#34;codeFile&#34;&gt;
+
+
+&lt;h3&gt; Código del archivo &lt;code&gt;drawFaces.js&lt;/code&gt;:&lt;/h3&gt;
+
+
+
+
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;var imgs = [];
+var imgIndex = -1;
+var img;
+var paint;
+var subStep = 800;
+var z = 0;
+var isStop = false;
+var count = 0;
+
+function preload() {
+  imgs[0] = loadImage(&amp;quot;./imgs/test1.png&amp;quot;);
+  imgs[1] = loadImage(&amp;quot;./imgs/test1.png&amp;quot;);
+  imgs[2] = loadImage(&amp;quot;./imgs/test1.png&amp;quot;);
+}
+
+function setup() {
+	if(windowWidth &amp;lt; 600)
+  	createCanvas(windowWidth, windowWidth);
+	else
+  	createCanvas(600, 600);
+  img = createImage(width, height);
+  nextImage();
+  paint = new Paint(createVector(width/2, height/2));
+  background(255, 255, 255);
+  colorMode(RGB, 255, 255, 255, 255);
+}
+
+function draw() {
+  //console.log(frameRate());
+  if (!isStop) {
+  	for (var i = 0 ; i &amp;lt; subStep ; i++) {
+      paint.update();
+      paint.show();
+      z+= 0.01;
+    }
+  }
+	count++;
+	if (count &amp;gt; width) {
+		isStop = true;
+	}
+	//background(255);
+	//image(img, 0, 0, width, height);
+}
+
+function fget(i, j) {
+  var index = j * img.width + i;
+  index *= 4;
+  return color(img.pixels[index], img.pixels[index+1], img.pixels[index+2], img.pixels[index+3]);
+}
+
+function fset(i, j, c) {
+  var index = j * img.width + i;
+  index *= 4;
+  img.pixels[index] = red(c);
+  img.pixels[index+1] = green(c);
+  img.pixels[index+2] = blue(c);
+  img.pixels[index+3] = alpha(c);
+}
+
+function keyPressed() {
+  console.log(key);
+  if (key === &#39;s&#39; || key === &#39;S&#39;) {
+    isStop = !isStop;
+  }
+}
+function mouseClicked() {
+  nextImage();
+	isStop = false;
+	count = 0;
+}
+function touchStarted() {
+  nextImage();
+	isStop = false;
+	count = 0;
+}
+
+function nextImage() {
+	if (!img) return;
+  imgIndex = (++imgIndex) % imgs.length;
+  var targetImg = imgs[imgIndex];
+  img.copy(targetImg, 0, 0, targetImg.width, targetImg.height, 0, 0, img.width, img.height);
+  //img.resize(width, height);
+  img.loadPixels();
+  clear();
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Hello World con p5.js</title>
+      <link>https://chemabc.github.io/codeexperiments/p5js/helloworldp5/</link>
+      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://chemabc.github.io/codeexperiments/p5js/helloworldp5/</guid>
+      <description>&lt;p&gt;Este es el primer ejemplo de código usando &lt;em&gt;
+&lt;a href=&#34;https://p5js.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;p5.js&lt;/a&gt;&lt;/em&gt; integrado en un post con Hugo. Debajo del sketch está el código que lo genera.&lt;/p&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://chemabc.github.io/css/p5.css&#34;&gt;
+&lt;script type=&#34;text/javascript&#34; src=&#34;https://chemabc.github.io/js/p5/p5.min.js&#34;&gt;&lt;/script&gt;
+&lt;script type=&#34;text/javascript&#34; src=&#34;https://chemabc.github.io/js/p5_sketches/helloWorld.js&#34;&gt;&lt;/script&gt;
+
+&lt;h3&gt; Sketch interactivo del archivo &lt;code&gt;helloWorld.js&lt;/code&gt;:&lt;/h3&gt;
+
+&lt;div id=&#34;sketch&#34;&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;Al ver el código, veréis que tiene un par de funciones más que el clásico HelloWorld:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;getPos(&amp;hellip;)&lt;/code&gt;:el canvas (lienzo) se coloca dentro de un elemento &lt;code&gt; div id=&amp;ldquo;sketch&amp;rdquo;&lt;/code&gt;. Esta función me devuelve en coordenadas absolutas la posición de ese &lt;code&gt;div&lt;/code&gt;. Me va a ayudar para la siguiente función.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;centerCanvasDivHorizontally()&lt;/code&gt;: esta función me centra el canvas horizontalmente dependiendo del tamaño del mismo. Lo he desarrollado para que al ejecutarse la anchura sea 3/4 de la anchura de la ventana. Al final de la función modifico directamente el CSS del &lt;code&gt;div&lt;/code&gt; que lo contiene para asegurar que los bordes se vean adecuadamente.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Sobre posicionamiento del canvas, en esta web dan varios trucos: 
+&lt;a href=&#34;https://github.com/processing/p5.js/wiki/Positioning-your-canvas&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Positioning your canvas&lt;/a&gt;.&lt;/p&gt;
+&lt;div id=&#34;codeFile&#34;&gt;
+
+
+&lt;h3&gt; Código del archivo &lt;code&gt;helloWorld.js&lt;/code&gt;:&lt;/h3&gt;
+
+
+
+
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;//Funciones auxiliares para centrar el canvas en la pantalla:
+let canvas, canvasDiv;
+//Funcion para lograr la posicion absoluta de mi contenedor
+function getPos(el) {
+    // yay readability
+    for (var lx=0, ly=0;
+         el != null;
+         lx += el.offsetLeft, ly += el.offsetTop, el = el.offsetParent);
+    return {x: lx,y: ly};
+}
+
+//Quiero que centre el canvas solo horizontaltmente
+function centerCanvasDivHorizontally() {
+  var xCenter = (windowWidth - width) / 2;
+  var yCenter = (windowHeight - height) / 2;
+
+  var posDiv = getPos(canvasDiv);
+  /*console.log(&amp;quot;Pos Div: &amp;quot;, posDiv);
+  console.log(&amp;quot;width: &amp;quot;, width);
+  console.log(&amp;quot;height: &amp;quot;, height);
+  */
+  //Hacemos que el canvas esté contenido en el div &#39;sketch&#39;
+  canvas.parent(&#39;sketch&#39;);
+  //Aquí vamos a mover un poquito el sketch en horizontal hacia la izquierda para que quede centrado en la página. 
+  moveToLeft = (xCenter - posDiv.x);
+  canvasDiv.setAttribute(&amp;quot;style&amp;quot;,&amp;quot;  margin: 0; padding: 0;  width:&amp;quot; + width + &amp;quot;px; height:&amp;quot; + height + &amp;quot;px; margin-left:&amp;quot; + moveToLeft + &amp;quot;px; overflow: hidden;&amp;quot;);
+
+}
+
+function setup() {
+  canvasDiv = document.getElementById(&#39;sketch&#39;);
+  sWidth = windowWidth*3/4;
+  sHeight = sWidth * 9 / 16;
+  canvas = createCanvas(sWidth,sHeight);
+  centerCanvasDivHorizontally();
+}
+
+function draw() {
+  //Dibujo el borde del canvas:
+  //background(0,0,0);
+  fill(random(255), random(255), random(255));
+
+}
+function mouseMoved() {
+	ellipse(mouseX, mouseY, 80, 80);
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Script p5.js del vídeo Introducción a la programación p5.js</title>
+      <link>https://chemabc.github.io/codeexperiments/p5js/introprogramacionp5/</link>
+      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://chemabc.github.io/codeexperiments/p5js/introprogramacionp5/</guid>
+      <description>&lt;p&gt;Este es el primer ejemplo de código usando &lt;em&gt;
+&lt;a href=&#34;https://p5js.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;p5.js&lt;/a&gt;&lt;/em&gt; integrado en un post con Hugo. Debajo del sketch está el código que lo genera.&lt;/p&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://chemabc.github.io/css/p5.css&#34;&gt;
+&lt;script type=&#34;text/javascript&#34; src=&#34;https://chemabc.github.io/js/p5/p5.min.js&#34;&gt;&lt;/script&gt;
+&lt;script type=&#34;text/javascript&#34; src=&#34;https://chemabc.github.io/js/p5_sketches/helloWorld.js&#34;&gt;&lt;/script&gt;
+
+&lt;h3&gt; Sketch interactivo del archivo &lt;code&gt;helloWorld.js&lt;/code&gt;:&lt;/h3&gt;
+
+&lt;div id=&#34;sketch&#34;&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;Al ver el código, veréis que tiene un par de funciones más que el clásico HelloWorld:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;getPos(&amp;hellip;)&lt;/code&gt;:el canvas (lienzo) se coloca dentro de un elemento &lt;code&gt; div id=&amp;ldquo;sketch&amp;rdquo;&lt;/code&gt;. Esta función me devuelve en coordenadas absolutas la posición de ese &lt;code&gt;div&lt;/code&gt;. Me va a ayudar para la siguiente función.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;centerCanvasDivHorizontally()&lt;/code&gt;: esta función me centra el canvas horizontalmente dependiendo del tamaño del mismo. Lo he desarrollado para que al ejecutarse la anchura sea 3/4 de la anchura de la ventana. Al final de la función modifico directamente el CSS del &lt;code&gt;div&lt;/code&gt; que lo contiene para asegurar que los bordes se vean adecuadamente.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div id=&#34;codeFile&#34;&gt;
+
+
+&lt;h3&gt; Código del archivo &lt;code&gt;helloWorld.js&lt;/code&gt;:&lt;/h3&gt;
+
+
+
+
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;//Funciones auxiliares para centrar el canvas en la pantalla:
+let canvas, canvasDiv;
+//Funcion para lograr la posicion absoluta de mi contenedor
+function getPos(el) {
+    // yay readability
+    for (var lx=0, ly=0;
+         el != null;
+         lx += el.offsetLeft, ly += el.offsetTop, el = el.offsetParent);
+    return {x: lx,y: ly};
+}
+
+//Quiero que centre el canvas solo horizontaltmente
+function centerCanvasDivHorizontally() {
+  var xCenter = (windowWidth - width) / 2;
+  var yCenter = (windowHeight - height) / 2;
+
+  var posDiv = getPos(canvasDiv);
+  /*console.log(&amp;quot;Pos Div: &amp;quot;, posDiv);
+  console.log(&amp;quot;width: &amp;quot;, width);
+  console.log(&amp;quot;height: &amp;quot;, height);
+  */
+  //Hacemos que el canvas esté contenido en el div &#39;sketch&#39;
+  canvas.parent(&#39;sketch&#39;);
+  //Aquí vamos a mover un poquito el sketch en horizontal hacia la izquierda para que quede centrado en la página. 
+  moveToLeft = (xCenter - posDiv.x);
+  canvasDiv.setAttribute(&amp;quot;style&amp;quot;,&amp;quot;  margin: 0; padding: 0;  width:&amp;quot; + width + &amp;quot;px; height:&amp;quot; + height + &amp;quot;px; margin-left:&amp;quot; + moveToLeft + &amp;quot;px; overflow: hidden;&amp;quot;);
+
+}
+
+function setup() {
+  canvasDiv = document.getElementById(&#39;sketch&#39;);
+  sWidth = windowWidth*3/4;
+  sHeight = sWidth * 9 / 16;
+  canvas = createCanvas(sWidth,sHeight);
+  centerCanvasDivHorizontally();
+}
+
+function draw() {
+  //Dibujo el borde del canvas:
+  //background(0,0,0);
+  fill(random(255), random(255), random(255));
+
+}
+function mouseMoved() {
+	ellipse(mouseX, mouseY, 80, 80);
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Tutorial: how to set up p5.js with Academic in Hugo</title>
+      <link>https://chemabc.github.io/codeexperiments/p5_academic_hugo/</link>
+      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://chemabc.github.io/codeexperiments/p5_academic_hugo/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;./p5waves.png&#34; alt=&#34;png&#34;&gt;
+&lt;strong&gt;Create a free website with Academic using Markdown, Jupyter, or RStudio. Choose a beautiful color theme and build anything with the Page Builder - over 40 &lt;em&gt;widgets&lt;/em&gt;, &lt;em&gt;themes&lt;/em&gt;, and &lt;em&gt;language packs&lt;/em&gt; included!&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>categoria2 | Chema BC</title>
+    <link>https://chemabc.github.io/categories/categoria2/</link>
+      <atom:link href="https://chemabc.github.io/categories/categoria2/index.xml" rel="self" type="application/rss+xml" />
+    <description>categoria2</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><copyright>© 2021</copyright><lastBuildDate>Sun, 03 May 2020 18:27:00 +0200</lastBuildDate>
+    <image>
+      <url>https://chemabc.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>categoria2</title>
+      <link>https://chemabc.github.io/categories/categoria2/</link>
+    </image>
+    
+    <item>
+      <title>Artículo test1 sencillo:</title>
+      <link>https://chemabc.github.io/articulos/test/test_articulo/</link>
+      <pubDate>Sun, 03 May 2020 18:27:00 +0200</pubDate>
+      <guid>https://chemabc.github.io/articulos/test/test_articulo/</guid>
+      <description>&lt;details&gt;
+&lt;summary&gt;
+Esto sería el **summary**
+&lt;/summary&gt;
+&lt;p class=&#34;details&#34;&gt;
+&lt;p&gt;Esto serían los &lt;strong&gt;details&lt;/strong&gt; sin summary&lt;/p&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;titular-solo-con-texto&#34;&gt;Titular solo con texto&lt;/h2&gt;
+&lt;p&gt;Bla bla bla&lt;/p&gt;
+&lt;h3 id=&#34;subtitulo-1&#34;&gt;Subtitulo 1&lt;/h3&gt;
+&lt;p&gt;Bla bla bla&lt;/p&gt;
+&lt;h3 id=&#34;subtítulo-2&#34;&gt;Subtítulo 2&lt;/h3&gt;
+&lt;p&gt;Bla bla bla&lt;/p&gt;
+&lt;h2 id=&#34;titular-con-imagenes--carpeta-estatic&#34;&gt;Titular con imagenes (carpeta estatic):&lt;/h2&gt;
+&lt;h3 id=&#34;ejemplo-con-imagen-tipo-org--imagen-inline&#34;&gt;Ejemplo con imagen tipo org (imagen inline)&lt;/h3&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://chemabc.github.io/img/img_projects/20140404-182447_vanGogh-1024x542.png&#34; &gt;
+
+
+  &lt;img src=&#34;https://chemabc.github.io/img/img_projects/20140404-182447_vanGogh-1024x542.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;ejemplo-con-imagen-tipo-org--imagen-inline-con-hipervinculo&#34;&gt;Ejemplo con imagen tipo org (imagen inline con hipervinculo)&lt;/h3&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://chemabc.github.io/img/img_projects/20140404-182447_vanGogh-1024x542.png&#34; &gt;
+
+
+  &lt;img src=&#34;https://chemabc.github.io/img/img_projects/20140404-182447_vanGogh-1024x542.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;titular-con-código&#34;&gt;Titular con código:&lt;/h2&gt;
+&lt;h3 id=&#34;ejemplo-javascript-sin-numero-de-línea&#34;&gt;Ejemplo javascript sin numero de línea:&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;que&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;esto es código&amp;#34;&lt;/span&gt;;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;ejemplo-lisp-sin-numero-de-línea&#34;&gt;Ejemplo lisp sin numero de línea:&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-emacs-lisp&#34;&gt;;; this will export with line number 1 (default)
+(message &amp;quot;This is line 1&amp;quot;)
+(message &amp;quot;This is line 2&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;titular-con-shortcodes-para-sketch-y-código&#34;&gt;Titular con shortcodes para sketch y código:&lt;/h2&gt;
+&lt;p&gt;Este es el primer ejemplo de código usando &lt;strong&gt;
+&lt;a href=&#34;https://p5js.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;p5.js&lt;/a&gt;&lt;/strong&gt; integrado en un post con Hugo. Debajo del sketch está el código que lo genera.&lt;/p&gt;
+&lt;p&gt;Aquí un sketch:&lt;/p&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://chemabc.github.io/css/p5.css&#34;&gt;
+&lt;script type=&#34;text/javascript&#34; src=&#34;https://chemabc.github.io/js/p5/p5.min.js&#34;&gt;&lt;/script&gt;
+&lt;script type=&#34;text/javascript&#34; src=&#34;https://chemabc.github.io/js/p5_sketches/helloWorld.js&#34;&gt;&lt;/script&gt;
+
+&lt;h3&gt; Sketch interactivo del archivo &lt;code&gt;helloWorld.js&lt;/code&gt;:&lt;/h3&gt;
+
+&lt;div id=&#34;sketch&#34;&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;Aquí el código:&lt;/p&gt;
+&lt;div id=&#34;codeFile&#34;&gt;
+
+
+&lt;h3&gt; Código del archivo &lt;code&gt;helloWorld.js&lt;/code&gt;:&lt;/h3&gt;
+
+
+
+
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;//Funciones auxiliares para centrar el canvas en la pantalla:
+let canvas, canvasDiv;
+//Funcion para lograr la posicion absoluta de mi contenedor
+function getPos(el) {
+    // yay readability
+    for (var lx=0, ly=0;
+         el != null;
+         lx += el.offsetLeft, ly += el.offsetTop, el = el.offsetParent);
+    return {x: lx,y: ly};
+}
+
+//Quiero que centre el canvas solo horizontaltmente
+function centerCanvasDivHorizontally() {
+  var xCenter = (windowWidth - width) / 2;
+  var yCenter = (windowHeight - height) / 2;
+
+  var posDiv = getPos(canvasDiv);
+  /*console.log(&amp;quot;Pos Div: &amp;quot;, posDiv);
+  console.log(&amp;quot;width: &amp;quot;, width);
+  console.log(&amp;quot;height: &amp;quot;, height);
+  */
+  //Hacemos que el canvas esté contenido en el div &#39;sketch&#39;
+  canvas.parent(&#39;sketch&#39;);
+  //Aquí vamos a mover un poquito el sketch en horizontal hacia la izquierda para que quede centrado en la página. 
+  moveToLeft = (xCenter - posDiv.x);
+  canvasDiv.setAttribute(&amp;quot;style&amp;quot;,&amp;quot;  margin: 0; padding: 0;  width:&amp;quot; + width + &amp;quot;px; height:&amp;quot; + height + &amp;quot;px; margin-left:&amp;quot; + moveToLeft + &amp;quot;px; overflow: hidden;&amp;quot;);
+
+}
+
+function setup() {
+  canvasDiv = document.getElementById(&#39;sketch&#39;);
+  sWidth = windowWidth*3/4;
+  sHeight = sWidth * 9 / 16;
+  canvas = createCanvas(sWidth,sHeight);
+  centerCanvasDivHorizontally();
+}
+
+function draw() {
+  //Dibujo el borde del canvas:
+  //background(0,0,0);
+  fill(random(255), random(255), random(255));
+
+}
+function mouseMoved() {
+	ellipse(mouseX, mouseY, 80, 80);
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Interaction | Chema BC</title>
+    <link>https://chemabc.github.io/tags/interaction/</link>
+      <atom:link href="https://chemabc.github.io/tags/interaction/index.xml" rel="self" type="application/rss+xml" />
+    <description>Interaction</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><copyright>© 2021</copyright><lastBuildDate>Wed, 12 Mar 2014 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://chemabc.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Interaction</title>
+      <link>https://chemabc.github.io/tags/interaction/</link>
+    </image>
+    
+    <item>
+      <title>Los premios VIDA salen a Callao</title>
+      <link>https://chemabc.github.io/projects/etcinventions/2014_premiosvida_telefonica/</link>
+      <pubDate>Wed, 12 Mar 2014 00:00:00 +0000</pubDate>
+      <guid>https://chemabc.github.io/projects/etcinventions/2014_premiosvida_telefonica/</guid>
+      <description>&lt;p&gt;Proyecto realizado en 2014 para Tapsa y Fundación Telefónica para promocionar los premios VIDA de piezas artísticas relacionadas con la Inteligencia Artificial.&lt;/p&gt;
+&lt;p&gt;Aquí un vídeo de la instalación funcionando:
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/zi_AdLPtF90&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Charlas sobre Ciencia Ciudadana</title>
+      <link>https://chemabc.github.io/videos/talks-cienciaciudadana/</link>
+      <pubDate>Mon, 12 Mar 2012 00:00:00 +0000</pubDate>
+      <guid>https://chemabc.github.io/videos/talks-cienciaciudadana/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>KLE - Kit de Libertad de Expresión</title>
+      <link>https://chemabc.github.io/projects/etcinventions/2013_kle_kitlibertadexpresion/</link>
+      <pubDate>Mon, 12 Mar 2012 00:00:00 +0000</pubDate>
+      <guid>https://chemabc.github.io/projects/etcinventions/2013_kle_kitlibertadexpresion/</guid>
+      <description>&lt;pre&gt;&lt;code&gt;  KLE: Kit de libertad de expresión, con María Solé Bravo, Anna Carreras y la colaboración de Gonzalo Iglesias, Rafael Fernandes, Carlos Fernández, Daniel Alonso, Sonya Ricketts, Andrea Rosales, Soraya Nasser, Echedey Lorenzo, Miguel Fernández, Eva Rueda y Christian Rojo. 
+  - Vídeo “La libertad de expresión tiene forma de LED”, realizado por GStudios: https://vimeo.com/70939001
+- Artículo en Yorokobu: https://www.yorokobu.es/kitlibertadexpresion/
+- Artículo en Wired UK:
+	https://www.wired.co.uk/news/archive/2013-05/17/freedom-of-expression-kit
+- Artículo en We Make Money Not Art:
+	https://we-make-money-not-art.com/kit_de_libertad_de_expresion_f/
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

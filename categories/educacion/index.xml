@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Educación | Chema BC</title>
+    <link>https://chemabc.github.io/categories/educacion/</link>
+      <atom:link href="https://chemabc.github.io/categories/educacion/index.xml" rel="self" type="application/rss+xml" />
+    <description>Educación</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><copyright>© 2021</copyright><lastBuildDate>Tue, 28 Jun 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://chemabc.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Educación</title>
+      <link>https://chemabc.github.io/categories/educacion/</link>
+    </image>
+    
+    <item>
+      <title>Example of simple post EDU</title>
+      <link>https://chemabc.github.io/articulos/edu/simplepostedu/</link>
+      <pubDate>Tue, 28 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>https://chemabc.github.io/articulos/edu/simplepostedu/</guid>
+      <description>&lt;p&gt;Add your &lt;em&gt;content&lt;/em&gt; here&amp;hellip;
+Y aquí es donde escribo movias:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;edu&lt;/li&gt;
+&lt;li&gt;edu&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

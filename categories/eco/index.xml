@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eco | Chema BC</title>
+    <link>https://chemabc.github.io/categories/eco/</link>
+      <atom:link href="https://chemabc.github.io/categories/eco/index.xml" rel="self" type="application/rss+xml" />
+    <description>eco</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><copyright>© 2021</copyright><lastBuildDate>Sun, 03 May 2020 14:04:00 +0200</lastBuildDate>
+    <image>
+      <url>https://chemabc.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>eco</title>
+      <link>https://chemabc.github.io/categories/eco/</link>
+    </image>
+    
+    <item>
+      <title>EcoCourse 2</title>
+      <link>https://chemabc.github.io/articulos/eco/ecocourse2/</link>
+      <pubDate>Sun, 09 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>https://chemabc.github.io/articulos/eco/ecocourse2/</guid>
+      <description>&lt;h2&gt;Índice&lt;/h2&gt;
+&lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#flexibility&#34;&gt;Flexibility&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#delete-tutorials&#34;&gt;Delete tutorials&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;h2 id=&#34;flexibility&#34;&gt;Flexibility&lt;/h2&gt;
+&lt;p&gt;This feature can be used for publishing content such as:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Online courses&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Project or software documentation&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tutorials&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The &lt;code&gt;courses&lt;/code&gt; folder may be renamed. For example, we can rename it to &lt;code&gt;docs&lt;/code&gt; for software/project documentation or &lt;code&gt;tutorials&lt;/code&gt; for creating an online course.&lt;/p&gt;
+&lt;h2 id=&#34;delete-tutorials&#34;&gt;Delete tutorials&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;To remove these pages, delete the &lt;code&gt;courses&lt;/code&gt; folder and see below to delete the associated menu link.&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Un domingo, una pandemia, una oportunidad</title>
+      <link>https://chemabc.github.io/articulos/eco/undomingo_unapandemia_unaoportunidad/</link>
+      <pubDate>Sun, 03 May 2020 14:04:00 +0200</pubDate>
+      <guid>https://chemabc.github.io/articulos/eco/undomingo_unapandemia_unaoportunidad/</guid>
+      <description>&lt;h2 id=&#34;un-domingo&#34;&gt;Un domingo&lt;/h2&gt;
+&lt;p&gt;Me despierta mi compi&lt;/p&gt;
+&lt;h2 id=&#34;una-pandemia&#34;&gt;Una pandemia&lt;/h2&gt;
+&lt;p&gt;La gente sigue infectándose&lt;/p&gt;
+&lt;h2 id=&#34;una-oportunidad&#34;&gt;Una oportunidad&lt;/h2&gt;
+&lt;p&gt;Tralari&lt;/p&gt;
+&lt;h3 id=&#34;subseccion-1&#34;&gt;Subseccion 1&lt;/h3&gt;
+&lt;p&gt;Tralara subseccion&lt;/p&gt;
+&lt;h4 id=&#34;subseccion-1-dot-2&#34;&gt;Subseccion 1.2&lt;/h4&gt;
+&lt;p&gt;Tralara subseccion 2&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chapter 1 Index | Chema BC</title>
+    <link>https://chemabc.github.io/articulos/chapter1/books/book1/</link>
+      <atom:link href="https://chemabc.github.io/articulos/chapter1/books/book1/index.xml" rel="self" type="application/rss+xml" />
+    <description>Chapter 1 Index</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><copyright>© 2021</copyright><lastBuildDate>Tue, 05 May 2020 12:56:09 +0200</lastBuildDate>
+    <image>
+      <url>https://chemabc.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Chapter 1 Index</title>
+      <link>https://chemabc.github.io/articulos/chapter1/books/book1/</link>
+    </image>
+    
+    <item>
+      <title>sub section 1</title>
+      <link>https://chemabc.github.io/articulos/chapter1/books/book1/section1/</link>
+      <pubDate>Tue, 05 May 2020 12:56:09 +0200</pubDate>
+      <guid>https://chemabc.github.io/articulos/chapter1/books/book1/section1/</guid>
+      <description>&lt;p&gt;Section 1 of chapter 1&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>sub section 2</title>
+      <link>https://chemabc.github.io/articulos/chapter1/books/book1/section2/</link>
+      <pubDate>Tue, 05 May 2020 12:56:09 +0200</pubDate>
+      <guid>https://chemabc.github.io/articulos/chapter1/books/book1/section2/</guid>
+      <description>&lt;p&gt;Section 2 of chapter 1&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

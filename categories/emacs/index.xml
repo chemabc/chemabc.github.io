@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>emacs | Chema BC</title>
+    <link>https://chemabc.github.io/categories/emacs/</link>
+      <atom:link href="https://chemabc.github.io/categories/emacs/index.xml" rel="self" type="application/rss+xml" />
+    <description>emacs</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><copyright>© 2021</copyright><lastBuildDate>Thu, 12 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://chemabc.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>emacs</title>
+      <link>https://chemabc.github.io/categories/emacs/</link>
+    </image>
+    
+    <item>
+      <title>Writing Hugo blog in Org</title>
+      <link>https://chemabc.github.io/articulos/eco/writing-hugo-blog-in-org-subtree-export/</link>
+      <pubDate>Thu, 12 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://chemabc.github.io/articulos/eco/writing-hugo-blog-in-org-subtree-export/</guid>
+      <description>&lt;h2 id=&#34;first-heading-within-the-post&#34;&gt;First heading within the post&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;This post will be exported as
+&lt;code&gt;content/posts/writing-hugo-blog-in-org-subtree-export.md&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Its title will be &amp;ldquo;Writing Hugo blog in Org&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;It will have &lt;em&gt;hugo&lt;/em&gt; and &lt;em&gt;org&lt;/em&gt; tags and &lt;em&gt;emacs&lt;/em&gt; as category.&lt;/li&gt;
+&lt;li&gt;The menu item &lt;em&gt;weight&lt;/em&gt; and post &lt;em&gt;weight&lt;/em&gt; are auto-calculated.&lt;/li&gt;
+&lt;li&gt;The menu item &lt;em&gt;identifier&lt;/em&gt; is auto-set.&lt;/li&gt;
+&lt;li&gt;The &lt;em&gt;lastmod&lt;/em&gt; property in the front-matter is set automatically to
+the time of export.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;a-sub-heading-under-that-heading&#34;&gt;A sub-heading under that heading&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;It&amp;rsquo;s draft state will be marked as &lt;code&gt;true&lt;/code&gt; as the subtree has the
+todo state set to &lt;em&gt;TODO&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;With the point &lt;span class=&#34;underline&#34;&gt;anywhere&lt;/span&gt; in this &lt;em&gt;Writing Hugo blog in Org&lt;/em&gt; post
+subtree, do &lt;code&gt;C-c C-e H H&lt;/code&gt; to export just this post.&lt;/p&gt;
+&lt;p&gt;The exported Markdown has a little comment footer as set in the &lt;em&gt;Local
+Variables&lt;/em&gt; section below.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Faciendo uma proba</title>
+      <link>https://chemabc.github.io/articulos/eco/faciendo-uma-proba-subtree-export/</link>
+      <pubDate>Thu, 12 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://chemabc.github.io/articulos/eco/faciendo-uma-proba-subtree-export/</guid>
+      <description>&lt;h2 id=&#34;prueba&#34;&gt;Prueba&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;This post will be exported as
+&lt;code&gt;content/posts/writing-hugo-blog-in-org-subtree-export.md&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Its title will be &amp;ldquo;Writing Hugo blog in Org&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;It will have &lt;em&gt;hugo&lt;/em&gt; and &lt;em&gt;org&lt;/em&gt; tags and &lt;em&gt;emacs&lt;/em&gt; as category.&lt;/li&gt;
+&lt;li&gt;The menu item &lt;em&gt;weight&lt;/em&gt; and post &lt;em&gt;weight&lt;/em&gt; are auto-calculated.&lt;/li&gt;
+&lt;li&gt;The menu item &lt;em&gt;identifier&lt;/em&gt; is auto-set.&lt;/li&gt;
+&lt;li&gt;The &lt;em&gt;lastmod&lt;/em&gt; property in the front-matter is set automatically to
+the time of export.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;a-sub-heading-under-that-heading&#34;&gt;A sub-heading under that heading&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;It&amp;rsquo;s draft state will be marked as &lt;code&gt;true&lt;/code&gt; as the subtree has the
+todo state set to &lt;em&gt;TODO&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;With the point &lt;span class=&#34;underline&#34;&gt;anywhere&lt;/span&gt; in this &lt;em&gt;Writing Hugo blog in Org&lt;/em&gt; post
+subtree, do &lt;code&gt;C-c C-e H H&lt;/code&gt; to export just this post.&lt;/p&gt;
+&lt;p&gt;The exported Markdown has a little comment footer as set in the &lt;em&gt;Local
+Variables&lt;/em&gt; section below.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
