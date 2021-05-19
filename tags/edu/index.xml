@@ -26,5 +26,183 @@ Y aquí es donde escribo movias:&lt;/p&gt;
 </description>
     </item>
     
+    <item>
+      <title>Piplex, the pingus plasticine experience</title>
+      <link>https://chemabc.github.io/projects/etcinventions/2010_piplex_thepingusplasticineexperience/</link>
+      <pubDate>Fri, 12 Mar 2010 00:00:00 +0000</pubDate>
+      <guid>https://chemabc.github.io/projects/etcinventions/2010_piplex_thepingusplasticineexperience/</guid>
+      <description>&lt;p&gt;Junto a Pascal Landry y Sebastián Mealla diseñamos y desarrollamos este prototipo de videojuego de realidad aumentada durante el Playlab 2010, donde la única materia que se tenía que usar era plastilina y cartulina.&lt;/p&gt;
+&lt;p&gt;Vídeo que muestra el concepto:
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://player.vimeo.com/video/9323490&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;vimeo video&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;Vídeo con Piplex en acción en CosmoCaixa (Barcelona):
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://player.vimeo.com/video/17397158&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;vimeo video&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;algunas-imágenes-de-los-diseños-del-concepto-y-de-el-juego&#34;&gt;Algunas imágenes de los diseños, del concepto y de el juego:&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./piplex1.jpg&#34; &gt;
+
+
+  &lt;img src=&#34;./piplex1.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./piplex2.jpg&#34; &gt;
+
+
+  &lt;img src=&#34;./piplex2.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./piplex3.jpg&#34; &gt;
+
+
+  &lt;img src=&#34;./piplex3.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./piplex4.jpg&#34; &gt;
+
+
+  &lt;img src=&#34;./piplex4.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./piplex5.jpg&#34; &gt;
+
+
+  &lt;img src=&#34;./piplex5.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h1 id=&#34;datos-del-proyecto&#34;&gt;Datos del proyecto:&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Desarrollado junto a Pascal Landry y Sebastián Mealla.&lt;/li&gt;
+&lt;li&gt;Videos: Sebastián Mealla y Sytse Wierenga&lt;/li&gt;
+&lt;/ul&gt;
+&lt;Falta incluir el resto de colaboradores&gt;
+&lt;h1 id=&#34;enlaces&#34;&gt;Enlaces:&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Vídeos en vímeo:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://vimeo.com/9323490,&#34;&gt;https://vimeo.com/9323490,&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://vimeo.com/17397158&#34;&gt;https://vimeo.com/17397158&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Artículo en ACM: &lt;a href=&#34;https://dl.acm.org/doi/abs/10.1145/1810543.1810590&#34;&gt;https://dl.acm.org/doi/abs/10.1145/1810543.1810590&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

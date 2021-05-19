@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>code | Chema BC</title>
+    <link>https://chemabc.github.io/tags/code/</link>
+      <atom:link href="https://chemabc.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <description>code</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><copyright>© 2021</copyright><lastBuildDate>Sat, 01 Jan 2011 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://chemabc.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>code</title>
+      <link>https://chemabc.github.io/tags/code/</link>
+    </image>
+    
+    <item>
+      <title>Campus BBVA Digital Signage</title>
+      <link>https://chemabc.github.io/projects/etcinventions/2011-campus-bbva/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://chemabc.github.io/projects/etcinventions/2011-campus-bbva/</guid>
+      <description>&lt;p&gt;Este proyecto consta de diferentes aplicaciones software, realizadas con OpenFrameworks, que desarrollamos para Ping Pong Technologies.&lt;/p&gt;
+&lt;p&gt;Una de las partes de la que más orgullo estoy fue el desarrollo de una interfaz táctil realizada con Kinect. Nos permitió convertir algunas de las pantallas normales que formaban los videowalls en pantallas interactivas a través de las cuales se podía navegar.&lt;/p&gt;
+&lt;p&gt;Se desarrollaron sistemas de visualización de información, mesas táctiles, videojuegos e incluso un muro interativo que permitía hacer ejercicio.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./campus_bbva_1.jpg/&#34; &gt;
+
+
+  &lt;img src=&#34;./campus_bbva_1.jpg/&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./campus_bbva_2.jpg&#34; &gt;
+
+
+  &lt;img src=&#34;./campus_bbva_2.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./campus_bbva_3.jpg&#34; &gt;
+
+
+  &lt;img src=&#34;./campus_bbva_3.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./campus_bbva_4.jpg&#34; &gt;
+
+
+  &lt;img src=&#34;./campus_bbva_4.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-conceptos-de-las-diferentes-interfaces&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./campus_bbva_5.png&#34; data-caption=&#34;Conceptos de las diferentes interfaces.&#34;&gt;
+
+
+  &lt;img src=&#34;./campus_bbva_5.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Conceptos de las diferentes interfaces.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cliente: BBVA.&lt;/li&gt;
+&lt;li&gt;Desarrollado en y para 
+&lt;a href=&#34;http://www.pingpongtech.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ping Pong Technologies&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Año: 2011&lt;/li&gt;
+&lt;li&gt;Tareas: diseño y desarrollo de software.&lt;/li&gt;
+&lt;li&gt;Fotografías: BBVA, Twoelf, Marc Mallafré&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
