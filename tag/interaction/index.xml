@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>interaction | Chema Bc</title>
+    <link>https://chemabc.github.io/tag/interaction/</link>
+      <atom:link href="https://chemabc.github.io/tag/interaction/index.xml" rel="self" type="application/rss+xml" />
+    <description>interaction</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>es-es</language><lastBuildDate>Wed, 12 Mar 2014 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://chemabc.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>interaction</title>
+      <link>https://chemabc.github.io/tag/interaction/</link>
+    </image>
+    
+    <item>
+      <title>Los premios VIDA salen a Callao</title>
+      <link>https://chemabc.github.io/projects/etcinventions/2014_premiosvida_telefonica/</link>
+      <pubDate>Wed, 12 Mar 2014 00:00:00 +0000</pubDate>
+      <guid>https://chemabc.github.io/projects/etcinventions/2014_premiosvida_telefonica/</guid>
+      <description>&lt;p&gt;Proyecto realizado en 2014 para Tapsa y Fundación Telefónica para promocionar los premios VIDA de piezas artísticas relacionadas con la Inteligencia Artificial.&lt;/p&gt;
+&lt;p&gt;Aquí un vídeo de la instalación funcionando:
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/zi_AdLPtF90&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;Una de las principales dificultades de este proyecto fue que el sistema de reconocimiento funcionara con la luz del sol, ya que los sistemas habituales fallan con la luz infrarroja que el sol emite. Para ello usamos una tecnología de Panasonic que nos permitió realizar el evento durante el día.&lt;/p&gt;
+&lt;h1 id=&#34;enlaces&#34;&gt;Enlaces:&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Tapsa|Y&amp;amp;R crea la acción de la Fundación Telefónica para los Premios VIDA: &lt;a href=&#34;https://lapublicidad.net/TapsaYyR-crea-la-accion-de-la-Fundacion-Telefonica-para-los-Premios-VIDA-/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://lapublicidad.net/TapsaYyR-crea-la-accion-de-la-Fundacion-Telefonica-para-los-Premios-VIDA-/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Vídeo en Youtube: &lt;a href=&#34;https://www.youtube.com/watch?v=zi_AdLPtF90&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.youtube.com/watch?v=zi_AdLPtF90&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Premios VIDA 15 - Fundación Telefónica: &lt;a href=&#34;https://espacio.fundaciontelefonica.com/evento/exposicion-premios-vida-15-0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://espacio.fundaciontelefonica.com/evento/exposicion-premios-vida-15-0/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;datos-del-proyecto&#34;&gt;Datos del proyecto:&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Cliente: Tapsa|Y&amp;amp;R para Fundación Teléfonica.&lt;/li&gt;
+&lt;li&gt;Desarrollado por nuestra cooperativa ETC Inventions S. Coop. Mad. con Anna Carreras y la colaboración de Daniel Gallardo.&lt;/li&gt;
+&lt;li&gt;Año: 2014&lt;/li&gt;
+&lt;li&gt;Tareas: gestión del proyecto, diseño y desarrollo de software y operación del mismo.&lt;/li&gt;
+&lt;li&gt;Vídeo: Fundación Telefónica&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Puppet Master</title>
+      <link>https://chemabc.github.io/projects/etcinventions/2012_thepuppetmaster/</link>
+      <pubDate>Tue, 12 Jun 2012 00:00:00 +0000</pubDate>
+      <guid>https://chemabc.github.io/projects/etcinventions/2012_thepuppetmaster/</guid>
+      <description>&lt;p&gt;Proyecto desarrollado con Joan Mora Guiard y Victor Díaz para la Game Jam de 2012. Consiste en una interfaz controlada por el &amp;ldquo;titiritero&amp;rdquo; que domina una gran pantalla en un espacio público y a través de las cámaras ve qué sucede. Le permite interactuar con las personas de la plaza con diferentes herramientas y establecer una comunicación.&lt;/p&gt;
+&lt;p&gt;Aquí un vídeo con el primer prototipo:
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://player.vimeo.com/video/35837886&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;vimeo video&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;más-información-sobre-el-proyecto&#34;&gt;Más información sobre el proyecto:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://connectingcities.net/project/puppet-master&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Información recogida por el proyecto europeo Connecting Cities&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.arte.tv/de/videos/050969-009-A/the-puppet-master/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Vídeo reportaje con entrevista de Arte TV con Public Art Lab sobre el proyecto&lt;/a&gt; (discúlpenme el nivel de inglés que tenía por aquel entonces :) )&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>KLE - Kit de Libertad de Expresión</title>
+      <link>https://chemabc.github.io/projects/etcinventions/2013_kle_kitlibertadexpresion/</link>
+      <pubDate>Mon, 12 Mar 2012 00:00:00 +0000</pubDate>
+      <guid>https://chemabc.github.io/projects/etcinventions/2013_kle_kitlibertadexpresion/</guid>
+      <description>&lt;p&gt;El KLE es un interfaz tecnológico basado en tecnologías DIY que permite reproducir tweets en un letrero digital durante diferentes eventos. Se desarrolló durante aquella etapa que vino después del 15M, muy relacionada con las constantes marchas y manifestaciones que hubo.&lt;/p&gt;
+&lt;p&gt;La pancarta y el sistema interno combinan textil y electrónica en un proyecto manual.&lt;/p&gt;
+&lt;p&gt;En el siguiente vídeo grabado por G Estudios Multimedia describe el proyecto:
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://player.vimeo.com/video/70939001&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;vimeo video&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-el-equipo-de-desarrollo-trabajando-en-medialab-prado-durante-interactivos13&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./kle_work_03.jpg&#34; alt=&#34;El equipo de desarrollo trabajando en Medialab Prado durante Interactivos?&amp;#39;13&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      El equipo de desarrollo trabajando en Medialab Prado durante Interactivos?&amp;lsquo;13
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./kle_diy.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./kle_visualization.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h1 id=&#34;equipo&#34;&gt;Equipo&lt;/h1&gt;
+&lt;p&gt;El equipo para este proyecto lo formamos María Solé Bravo, Anna Carreras con la fantástica y constante colaboración de Gonzalo Iglesias, Rafael Fernandes, Carlos Fernández, Daniel Alonso, Sonya Ricketts, Andrea Rosales, Soraya Nasser, Echedey Lorenzo, Miguel Fernández, Eva Rueda y Christian Rojo.&lt;/p&gt;
+&lt;h1 id=&#34;enlaces-en-medios&#34;&gt;Enlaces en medios:&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Artículo en Yorokobu: &lt;a href=&#34;https://www.yorokobu.es/kitlibertadexpresion/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.yorokobu.es/kitlibertadexpresion/&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Artículo en We Make Money Not Art:
+&lt;a href=&#34;https://we-make-money-not-art.com/kit_de_libertad_de_expresion_f/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://we-make-money-not-art.com/kit_de_libertad_de_expresion_f/&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Artículo en Wired UK (parece eliminado):
+&lt;a href=&#34;https://www.wired.co.uk/news/archive/2013-05/17/freedom-of-expression-kit&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.wired.co.uk/news/archive/2013-05/17/freedom-of-expression-kit&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Vídeo “La libertad de expresión tiene forma de LED”, realizado por GStudios: &lt;a href=&#34;https://vimeo.com/70939001&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://vimeo.com/70939001&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Desde la web quiero expresar mi más profundo agradecimiento a toda la gente que colaboró en el proyecto y a &lt;a href=&#34;https://gestudiosmultimedia.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;G Studios Multimedia&lt;/a&gt; que grabó y editó el vídeo de forma desinteresada.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Campus BBVA Digital Signage</title>
+      <link>https://chemabc.github.io/projects/etcinventions/2011-campus-bbva/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://chemabc.github.io/projects/etcinventions/2011-campus-bbva/</guid>
+      <description>&lt;p&gt;Este proyecto consta de diferentes aplicaciones software, realizadas con OpenFrameworks, que desarrollamos para Ping Pong Technologies.&lt;/p&gt;
+&lt;p&gt;Una de las partes de la que más orgullo estoy fue el desarrollo de una interfaz táctil realizada con Kinect. Nos permitió convertir algunas de las pantallas normales que formaban los videowalls en pantallas interactivas a través de las cuales se podía navegar.&lt;/p&gt;
+&lt;p&gt;Se desarrollaron sistemas de visualización de información, mesas táctiles, videojuegos e incluso un muro interativo que permitía hacer ejercicio.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./campus_bbva_1.jpg/&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./campus_bbva_2.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./campus_bbva_3.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./campus_bbva_4.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-conceptos-de-las-diferentes-interfaces&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./campus_bbva_5.png&#34; alt=&#34;Conceptos de las diferentes interfaces.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Conceptos de las diferentes interfaces.
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h1 id=&#34;datos-del-proyecto&#34;&gt;Datos del proyecto:&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Cliente: BBVA.&lt;/li&gt;
+&lt;li&gt;Desarrollado en y para &lt;a href=&#34;http://www.pingpongtech.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ping Pong Technologies&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Año: 2011&lt;/li&gt;
+&lt;li&gt;Tareas: diseño y desarrollo de software.&lt;/li&gt;
+&lt;li&gt;Fotografías: BBVA, Twoelf, Marc Mallafré&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Piplex, the pingus plasticine experience</title>
+      <link>https://chemabc.github.io/projects/etcinventions/2010_piplex_thepingusplasticineexperience/</link>
+      <pubDate>Fri, 12 Mar 2010 00:00:00 +0000</pubDate>
+      <guid>https://chemabc.github.io/projects/etcinventions/2010_piplex_thepingusplasticineexperience/</guid>
+      <description>&lt;p&gt;Junto a Pascal Landry y Sebastián Mealla diseñamos y desarrollamos este prototipo de videojuego de realidad aumentada durante el Playlab 2010, donde la única materia que se tenía que usar era plastilina y cartulina.&lt;/p&gt;
+&lt;p&gt;Vídeo que muestra el concepto:
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://player.vimeo.com/video/9323490&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;vimeo video&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;Vídeo con Piplex en acción en CosmoCaixa (Barcelona):
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://player.vimeo.com/video/17397158&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;vimeo video&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;algunas-imágenes-de-los-diseños-del-concepto-y-de-el-juego&#34;&gt;Algunas imágenes de los diseños, del concepto y de el juego:&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./piplex1.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./piplex2.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./piplex3.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./piplex4.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./piplex5.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h1 id=&#34;datos-del-proyecto&#34;&gt;Datos del proyecto:&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Desarrollado junto a Pascal Landry y Sebastián Mealla.&lt;/li&gt;
+&lt;li&gt;Videos: Sebastián Mealla y Sytse Wierenga&lt;/li&gt;
+&lt;/ul&gt;
+&lt;Falta incluir el resto de colaboradores&gt;
+&lt;h1 id=&#34;enlaces&#34;&gt;Enlaces:&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Vídeos en vímeo:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://vimeo.com/9323490&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://vimeo.com/9323490&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://vimeo.com/17397158&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://vimeo.com/17397158&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Artículo en ACM: &lt;a href=&#34;https://dl.acm.org/doi/abs/10.1145/1810543.1810590&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://dl.acm.org/doi/abs/10.1145/1810543.1810590&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
