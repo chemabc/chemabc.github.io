@@ -1,0 +1,1325 @@
+<!DOCTYPE html><html lang="es-es" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.6.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Nelson Bighetti" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Introducción Desde que dejé un poco apartado el desarrollo tecnológico para acercarme a las humanidades, he ido observando una serie de prácticas a la hora de realizar desarrollos públicos en España, normalmente a golpe de licitación, que se escapan de mi comprensión sobre cómo diseñar servicios, contratarlos, gestionarlos, revisarlos y mantenerlos." />
+
+  
+  <link rel="alternate" hreflang="es-es" href="https://chemabc.github.io/post/opinion/infraestructuraspublicas/infraestructuraspublicascriticas/" />
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.c7b8d9abd591ba2253ea42747e3ac3f5.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.dff0365dd14977fc6ea51ea2253b6f3d.css" />
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+  
+    <link rel="manifest" href="/manifest.webmanifest" />
+  
+
+  
+  <link rel="icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://chemabc.github.io/post/opinion/infraestructuraspublicas/infraestructuraspublicascriticas/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary" />
+  
+  <meta property="og:site_name" content="Chema Bc" />
+  <meta property="og:url" content="https://chemabc.github.io/post/opinion/infraestructuraspublicas/infraestructuraspublicascriticas/" />
+  <meta property="og:title" content="Sobre algunas infraestructuras públicas que quizá sean críticas | Chema Bc" />
+  <meta property="og:description" content="Introducción Desde que dejé un poco apartado el desarrollo tecnológico para acercarme a las humanidades, he ido observando una serie de prácticas a la hora de realizar desarrollos públicos en España, normalmente a golpe de licitación, que se escapan de mi comprensión sobre cómo diseñar servicios, contratarlos, gestionarlos, revisarlos y mantenerlos." /><meta property="og:image" content="https://chemabc.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
+    <meta property="twitter:image" content="https://chemabc.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="es-es" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2020-08-22T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2020-08-22T00:00:00&#43;02:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://chemabc.github.io/post/opinion/infraestructuraspublicas/infraestructuraspublicascriticas/"
+  },
+  "headline": "Sobre algunas infraestructuras públicas que quizá sean críticas",
+  
+  "datePublished": "2020-08-22T00:00:00Z",
+  "dateModified": "2020-08-22T00:00:00+02:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Nelson Bighetti"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Chema Bc",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://chemabc.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "Introducción Desde que dejé un poco apartado el desarrollo tecnológico para acercarme a las humanidades, he ido observando una serie de prácticas a la hora de realizar desarrollos públicos en España, normalmente a golpe de licitación, que se escapan de mi comprensión sobre cómo diseñar servicios, contratarlos, gestionarlos, revisarlos y mantenerlos."
+}
+</script>
+
+  
+
+  
+
+  
+
+
+  <title>Sobre algunas infraestructuras públicas que quizá sean críticas | Chema Bc</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="ef15283a264ad2172c49b12bba49d710" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.613040fe4f2c0f007b4dcb64404201cb.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Buscar</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Cerrar"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Buscar..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Buscar...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="header--fixed">
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">Chema Bc</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Barra de navegación">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">Chema Bc</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#projects"><span>Proyectos</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#posts"><span>Artículos</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#docs"><span>Documentación</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>Sobre mí</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#contact"><span>Contacto</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+          
+        
+
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Buscar"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Mostrar preferencias">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Claro</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Oscuro</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automático</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Sobre algunas infraestructuras públicas que quizá sean críticas</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Última actualización el
+      
+    
+    ago. 22, 2020
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    6 min de lectura
+  </span>
+  
+
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/educacion/">Educación</a>, <a href="/category/opinion/">Opinión</a>, <a href="/category/privacidad/">Privacidad</a></span>
+  
+
+</div>
+
+    
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <h2 id="introducción">Introducción</h2>
+<p>Desde que dejé un poco apartado el desarrollo tecnológico para acercarme a las humanidades, he ido observando una serie de prácticas a la hora de realizar desarrollos públicos en España, normalmente a golpe de licitación, que se escapan de mi comprensión sobre cómo diseñar servicios, contratarlos, gestionarlos, revisarlos y mantenerlos.</p>
+<p>Aún a sabiendas de la dificultad para cambiar las &ldquo;formas de hacer&rdquo;, especialmente cuando estas pueden suponer un menor trasbase de dinero público a bolsillos privados de las grandes corporaciones y familias que tienden a dominar la contratación pública, me aventuro a lanzar algunas ideas que quizá sean útiles.</p>
+<p>En general estas van a tratar sobre el uso y creación del software en la administración pública, a todos los niveles. Es más, hablaré de los servicios en la nube u online que tenemos: registros, sistema de asignación de interinidades en educación, sistemas para subir nuestra documentación personal, sistemas de información de accidentes, catástrofes, incendios, etc.</p>
+<p>Para que un proyecto de software tenga éxito, no solo hay que identificar bien la necesidad que pretende cubrir y hacer un perfil de las personas que la van a usar. Aquí me referiré a servicios que todos usamos, así que el usuario medio será cualquier español, con o sin idea de usar servicios informáticos online. Es decir, que consideremos que el usuario pueda ser yo, usted, mi hija o mi abuelo que tenga que hacer cualquier trámite.</p>
+<p>Aviso a navegantes: estas serán incompletas, quizá incorrectas, quizá imposibles. Animo a todo aquel que tenga formación y/o datos para mejorarlas a hacer su aportación. No tirándolas por tierra como si una estupida conversación de twitter se tratara, si no tratando de mejorarlas o modificarlas para que los objetivos que persiguen sean factibles. Es decir, que sea una conversación de equipo de profesionales haciendo crítica constructiva y mejorando un proyecto y no una de cuñados con opiniones emocionales en la barra de una bar.</p>
+<h2 id="el-medio-digital-es-diferente-al-medio-físico">El medio digital es diferente al medio físico</h2>
+<p>Esta es una idea transversal a todo el artículo: el medio digital nos ofrece una serie de ventajas frente al mundo físico. Pero los diseñadores del estado se han empeñado (supongo que sus jefes y técnicos porque &ldquo;siempre se ha hecho así&rdquo;) en crear herramientas digitales que COPIEN los procedimientos administrativos del mundo físico. ¿Dónde están los profesionales que conocen el medio digital cuando hay que re-pensar procedimientos para incorporarlos al mundo digital? Pues supongo que bastante frustrados cuando hablan con técnicos que se niegan a abrir la mente para hacer las cosas más sencillas que el mundo físico.</p>
+<p>Pongo un ejemplo: me presento a varias oposiciones en diferentes comunidades o estamentos. En cada una, he de subir mi documentación de forma digital y me la tienen que validad una y otra vez los técnicos de cada una. Por cada una tengo un expediente diferente. Y si me presento varios años, es posible que tengan también un expediente diferente cada año donde tengan que volver a validar documentación que ya estaba validada. Como ingeniero, y perdonenme la expresión, se me llevan los demonios al pensar todo el tiempo malgastado por todos esos técnicos. Y recuerden: ese tiempo, es dinero, y dinero que sale de su bolsillo porque les pagan gracias a los impuestos. Es decir, cada procedimiento que se repite es un gasto innecesario y un dinero que no se invierte en mejorar la sanidad, la educación, las carreteras, el I+D o promocionar la cultura o mejorar su sueldo si también trabaja para lo público.</p>
+<p>Propuesta: ¿no sería más fácil que hubiera un &ldquo;Portal del ciudadano&rdquo;, común para mi país y los aledaños, donde es ahí donde tuviera que subir solo una vez mi documentación: documentación de identidad, educativa, sanitaria, laboral, etc, y que siempre estuviera allí disponible. Ellos solicitaran un acceso y yo se lo concediera solo a la información que se pide. De forma que cuando uno de esos documentos ya ha sido validado una vez por un funcionario (o si quieren 2 o 3 por diferentes profesionales para evitar fraudes), dejaran de tener que comprobar su veracidad. Y con un click yo los introdujera en los campos que ellos me piden, de forma &ldquo;su expediente&rdquo; estuviera conectado a mis documentos (que obviamente no puedo cambiar durante el procedimiento, o se avisa si los cambio, o alguna medida alternativa de seguridad). Solo subo una vez cada documento. Los aprovecho mil veces. Y sé, porque en mi portal me consta, en qué procedimientos tengo abierto un expediente y qué documentación está adjuntada a cada uno de ellos. Siendo mucho más sencillo para mí y para los funcionarios hacer el seguimiento y evolución de cualquiera.</p>
+<p>Piensen otra cosa: si yo ahorro tiempo en mis trámites, es tiempo en que puedo aprovechar para trabajar y producir más o/y mejor, consumir más, tener nuevas ideas e innovar, procrear, conciliar mejor mi vida familiar, crear una empresa de éxito con grandes beneficios internacionales que de muchísimo dinero al estado en forma de impuestos y por lo tanto mejorar servicios públicos (e incluso mordidas de subcontratas privadas) etc, etc, etc. Y quizá redunde en menos costes para el estado y por tanto quizá se pueden llegar a bajar impuestos. ¿No es un Win-Win? Es decir, ¿no ganaríamos todos?</p>
+<h2 id="un-para-tods-y-tods-para-un">Un@ para tod@s y tod@s para un@</h2>
+<p>El segundo punto del día tiene que ver con que cada vez que se necesita un desarrollo de software común y pongo como ejemplo el registro electrónico, que ahora tiene <a href="https://www.hacienda.gob.es/es-ES/Areas%20Tematicas/Internacional/Union%20Europea/Paginas/Respuesta%206.aspx" target="_blank" rel="noopener">&ldquo;ventanilla única&rdquo;</a>, se hacen por defecto 18 desarrollos diferentes con 18 interfaces de usuario diferentes (como mínimo): una a nivel estatal y 17 más, una por cada comunidad.</p>
+<p>Es un servicio sencillo para registrar documentos. Normalmente con campo para datos personales (que suele haber que rellenar pues no los lee completamente del certificado digital), campo expone, campo solicita y otra para subir documentación. Una aplicación donde la seguridad es primordial, pero relativamente sencilla.</p>
+<p>Pues bien, algo relativamente sencillo y donde existe ventanilla única, y gracias a la cual podría haber solo un sitio en internet en el que cualquier persona subiera sus documentos y llegara a la institución adecuada, pues tenemos varios y cada cual con su idiosincrasia. Por ejemplo, el <a href="https://gestiona7.madrid.org/ereg_virtual_presenta/run/j/InicioDistribuidor.icm" target="_blank" rel="noopener">registro electrónico de la Comunidad de Madrid</a> a mí me da problemas porque nunca reconoce los documentos PDF oficiales que relleno. Uso software libre (no uso Windows, ni Acrobat Reader, que son de compañías norteamericanas a las que se paga licencia) y por algún motivo que no me he detenido en investigar, nunca le resultan válidos. Así que no puedo usarlo. Sin embargo (y afortunadamente) esos problemas no suceden con el <a href="https://rec.redsara.es/registro/action/are/acceso.do" target="_blank" rel="noopener">registro electrónico nacional</a> y ambos permiten que lleguen al mismo sitio. Solo espero ese proceso de reenvío esté automatizado, aunque no me extrañaría que lo hiciesen personas (llorar).</p>
+<h2 id="compatibilidad-e-interoperabilidad-entre-comunidades-y-entre-países">Compatibilidad e interoperabilidad entre comunidades y entre países</h2>
+<h2 id="sobre-el-uso-de-software-libre">Sobre el uso de software libre</h2>
+<h2 id="sobre-la-necesidad-de-diseñadores-gráficos-y-expertos-en-usabilidad">Sobre la necesidad de diseñadores gráficos y expertos en usabilidad</h2>
+<h2 id="sobre-la-necesidad-de-mantenimiento">Sobre la necesidad de mantenimiento</h2>
+<h2 id="sobre-la-impoluta-documentación">Sobre la impoluta documentación</h2>
+<h2 id="mis-datos-son-míos-ni-del-gobierno-ni-de-las-corporaciones">Mis datos son míos: ni del gobierno, ni de las corporaciones</h2>
+<h2 id="de-la-modernización-de-los-boe-bocm-etc">De la modernización de los BOE, BOCM, etc</h2>
+
+    </div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/edu/">edu</a>
+  
+  <a class="badge badge-light" href="/tag/opinion/">opinión</a>
+  
+  <a class="badge badge-light" href="/tag/privacidad/">privacidad</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://chemabc.github.io/post/opinion/infraestructuraspublicas/infraestructuraspublicascriticas/&amp;text=Sobre%20algunas%20infraestructuras%20p%c3%bablicas%20que%20quiz%c3%a1%20sean%20cr%c3%adticas" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://chemabc.github.io/post/opinion/infraestructuraspublicas/infraestructuraspublicascriticas/&amp;t=Sobre%20algunas%20infraestructuras%20p%c3%bablicas%20que%20quiz%c3%a1%20sean%20cr%c3%adticas" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Sobre%20algunas%20infraestructuras%20p%c3%bablicas%20que%20quiz%c3%a1%20sean%20cr%c3%adticas&amp;body=https://chemabc.github.io/post/opinion/infraestructuraspublicas/infraestructuraspublicascriticas/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://chemabc.github.io/post/opinion/infraestructuraspublicas/infraestructuraspublicascriticas/&amp;title=Sobre%20algunas%20infraestructuras%20p%c3%bablicas%20que%20quiz%c3%a1%20sean%20cr%c3%adticas" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Sobre%20algunas%20infraestructuras%20p%c3%bablicas%20que%20quiz%c3%a1%20sean%20cr%c3%adticas%20https://chemabc.github.io/post/opinion/infraestructuraspublicas/infraestructuraspublicascriticas/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://chemabc.github.io/post/opinion/infraestructuraspublicas/infraestructuraspublicascriticas/&amp;title=Sobre%20algunas%20infraestructuras%20p%c3%bablicas%20que%20quiz%c3%a1%20sean%20cr%c3%adticas" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://chemabc.github.io"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_270x270_fill_q90_lanczos_center.jpg" alt="Nelson Bighetti"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://chemabc.github.io">Nelson Bighetti</a></h5>
+      <h6 class="card-subtitle">Professor of Artificial Intelligence</h6>
+      <p class="card-text">My research interests include distributed robotics, mobile computing and programmable matter.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/GeorgeCushen" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ" target="_blank" rel="noopener">
+        <i class="fas fa-graduation-cap"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/gcushen" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  <p class="powered-by">
+    
+      <a href="/privacy/">Privacy Policy</a>
+    
+    
+       &middot; 
+      <a href="/terms/">Terms</a>
+    
+  </p>
+  
+
+  
+
+  
+  
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2022 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.d26509351aa0ff874abbee824e982e9b.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+
+
+  <script src="/js/wowchemy-headroom.c251366b4128fd5e6b046d4c97a62a51.js" type="module"></script>
+
+
+
+
+
+
+
+
+  
+  
+
+
+<script src="/es/js/wowchemy.min.5f5e92e0cc3cfe1f39b704e67a705053.js"></script>
+
+
+
+
+
+
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Citar</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <pre><code></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copiar
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Descargar
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
